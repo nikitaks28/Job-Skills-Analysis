@@ -1,0 +1,11 @@
+
+pyspark
+pandas
+numpy
+requests
+beautifulsoup4
+selenium
+nltk
+spacy
+matplotlib
+seaborn

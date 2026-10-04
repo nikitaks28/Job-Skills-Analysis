@@ -1,0 +1,35 @@
+# Power BI Dashboard Setup
+
+This folder contains the Power BI dashboard file for **LinkedIn Job Trend Demand and Skills Analysis**.
+
+## File
+- **dashboard.pbix** → Power BI file (to be created by importing exported Excel data).
+
+## Steps to Build Dashboard
+
+1. **Open Power BI Desktop**
+   - Install from Microsoft Store if not already installed.
+
+2. **Load Data**
+   - Go to **Home → Get Data → Excel**.
+   - Select the exported Excel file (from `scripts/export_to_csv.py`).
+   - Load all sheets: `job_counts`, `salary_trends`, `skills_freq`.
+
+3. **Create Visuals**
+   - **Job Demand Trend** → Bar chart showing top job titles by count.
+   - **Salary Analysis** → Column chart showing average salary by job title.
+   - **Skills Demand** → Word cloud / bar chart of most frequent skills.
+   - **Filters/Slicers** → Add filters for `location`, `company`, `post_date`.
+
+4. **Design Layout**
+   - Arrange visuals on a clean dashboard.
+   - Use company branding colors for a professional look.
+
+5. **Save File**
+   - Save as `dashboard.pbix` in this folder.
+
+6. **Optional**
+   - Publish to **Power BI Service** for sharing online.
+
+---
+📌 After this step, your LinkedIn Job Trend Analysis project will be fully integrated end-to-end: **Python + PySpark ETL + Power BI Dashboard**.
